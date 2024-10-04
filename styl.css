@@ -15,6 +15,7 @@ nav {
 
 .nav-item {
   margin-left: 15px; /* Adds space between the nav items */
+  align-content: center;
 }
 
 .nav-link {
