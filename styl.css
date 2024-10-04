@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  justify-content: flex-end; /* Aligns items to the end of the container */
+  align-items: center; /* Vertically centers items */
+  padding: 10px; /* Optional padding */
+}
+
+nav {
+  margin-left: 20px; /* Adds space between logo and nav */
+}
+
+.nav {
+  display: flex; /* Makes the nav items display in a row */
+}
+
+.nav-item {
+  margin-left: 15px; /* Adds space between the nav items */
+}
+
+.nav-link {
+  text-decoration: none; /* Removes underline from links */
+  color: #000; /* Change color as needed */
+}
+
+.lh-condensed {
+  line-height: 1.25;
+}
+body {
+  font-style: italic;
+}
+.form-control {
+  border: 3px solid #381015;
+  border-width: 2px 2px 2px 2px;
+  border-style: solid;
+  border-color: rgb(87, 29, 29);
+}
+.lh-condensed {
+  line-height: 1.25;
+}
+
+body {
+  font-style: italic;
+}
+
+.form-control {
+  border: 2px solid rgb(87, 29, 29); /* Set border width and color in one line */
+  border-top-width: 2px; /* Optional if you want to specify each side */
+}
+
+header {
+  padding: 10px 0; /* Optional: Adjust the header padding */
+}
+
+.form-control {
+  width: 250px; /* Adjust as needed */
+}
+
+.row {
+  align-items: center-; /* Vertically center align items */
+}

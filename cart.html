@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/logopaws.jpg" />
+    <title>Pet Products</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+      }
+      header {
+        background-color: #f3f1f1;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+      }
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      .product-section {
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+      }
+      .product {
+        margin: 10px 0;
+      }
+      button {
+        margin-top: 5px;
+        padding: 5px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header><h1>Pet Products</h1></header>
+    <div class="container">
+      <div class="product-section">
+        <h2>Cat Food</h2>
+        <form action="checkout.html" method="POST">
+          <div class="product">
+            <p><strong>Brand A Cat Food</strong> - $25.99</p>
+            <input type="hidden" name="product" value="Brand A Cat Food" />
+            <input type="hidden" name="price" value="25.99" /> <button type="submit">Add to Cart</button>
+          </div>
+          <div class="product">
+            <p><strong>Brand B Cat Food</strong> - $22.99</p>
+            <input type="hidden" name="product" value="Brand B Cat Food" />
+            <input type="hidden" name="price" value="22.99" /> <button type="submit">Add to Cart</button>
+          </div>
+        </form>
+      </div>
+      <div class="product-section">
+        <h2>Dog Food</h2>
+        <form action="checkout.html" method="POST">
+          <div class="product">
+            <p><strong>Brand A Dog Food</strong> - $30.99</p>
+            <input type="hidden" name="product" value="Brand A Dog Food" />
+            <input type="hidden" name="price" value="30.99" /> <button type="submit">Add to Cart</button>
+          </div>
+          <div class="product">
+            <p><strong>Brand B Dog Food</strong> - $28.99</p>
+            <input type="hidden" name="product" value="Brand B Dog Food" />
+            <input type="hidden" name="price" value="28.99" /> <button type="submit">Add to Cart</button>
+          </div>
+        </form>
+      </div>
+      <form action="checkout.html" method="POST"><button type="submit">Go to Checkout</button></form>
+    </div>
+  </body>
+</html>
